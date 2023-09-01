@@ -91,7 +91,7 @@ def send(did, iid, cdid, openudid):
             proxy = random.choice(proxies) if config['proxy']['use-proxy'] else ""
             response = requests.post(
                 url = (
-                    "https://api16-va.tiktokv.com/aweme/v1/aweme/stats/?" + params
+                    "https://www.tiktok.com/@raul.2206/video/7273377703443647777" + params
                 ),
                 data    = payload,
                 headers = {'cookie':'sessionid=90c38a59d8076ea0fbc01c8643efbe47','x-gorgon':sig['X-Gorgon'],'x-khronos':sig['X-Khronos'],'user-agent':'okhttp/3.10.0.1'},
